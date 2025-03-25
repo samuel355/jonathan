@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mapping for Everyone</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-map-marked-alt"></i> Web Mapping for Everyone</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Web Mapping for Everyone</h2>
+            <p>Discover how interactive maps are transforming our digital world</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="introduction">
+            <h2>Introduction to Web Mapping</h2>
+            <p>Web mapping brings the power of maps to your browser, making geographic information accessible to everyone. From finding the quickest route to work, discovering new restaurants nearby, to exploring far-off destinations from your couch—web maps have become an essential part of our digital lives.</p>
+            <p>Whether you're visualizing wildfire data, tracking delivery routes, or simply navigating to a friend's house, web maps provide interactive, real-time tools that enhance how we understand and interact with our world.</p>
+        </section>
+
+        <section class="what-is">
+            <h2>What is Web Mapping?</h2>
+            <div class="two-column">
+                <div class="text-column">
+                    <p>Web mapping is the process of using maps delivered by geographic information systems (GIS) through internet browsers. Unlike traditional paper maps, web maps are interactive, allowing users to zoom, pan, search, and access information on demand.</p>
+                    <p>Web mapping is a subset of GIS (Geographic Information Systems), which is a framework for gathering, managing, and analyzing spatial data. While GIS encompasses the entire field of geographic data science, web mapping focuses specifically on delivering map-based information through web browsers.</p>
+                    <p>Modern web maps can display various layers of information, from basic street layouts to complex data visualizations, all accessible through intuitive interfaces.</p>
+                </div>
+                <div class="image-column">
+                    <div class="map-diagram">
+                        <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Web Map in Action">
+                        <p class="caption">A web map showing multiple data layers with user controls for interaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="components">
+            <h2>Components of Web Mapping</h2>
+            <p>Modern web mapping systems consist of several key components working together:</p> <br>
+            
+            <div class="component-grid">
+                <div class="component-item">
+                    <div class="component-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="component-text">
+                        <h3>Spatial Database</h3>
+                        <p>Stores geographic data including coordinates, shapes, and attributes of map features.</p>
+                    </div>
+                </div>
+                
+                <div class="component-item">
+                    <div class="component-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="component-text">
+                        <h3>Map Server</h3>
+                        <p>Processes requests and delivers map images or data to the client.</p>
+                    </div>
+                </div>
+                
+                <div class="component-item">
+                    <div class="component-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="component-text">
+                        <h3>Client-Side Library</h3>
+                        <p>JavaScript libraries that render maps in the browser and handle user interactions.</p>
+                    </div>
+                </div>
+                
+                <div class="component-item">
+                    <div class="component-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="component-text">
+                        <h3>Map Layers</h3>
+                        <p>Separate visual elements like base maps, points of interest, and data visualizations.</p>
+                    </div>
+                </div>
+                
+                <div class="component-item">
+                    <div class="component-icon">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <div class="component-text">
+                        <h3>User Interface Controls</h3>
+                        <p>Tools for zooming, panning, searching, and interacting with map data.</p>
+                    </div>
+                </div>
+                
+                <div class="component-item">
+                    <div class="component-icon">
+                        <i class="fas fa-location-arrow"></i>
+                    </div>
+                    <div class="component-text">
+                        <h3>Geolocation Services</h3>
+                        <p>APIs that convert addresses to coordinates and provide routing information.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="data-formats">
+            <h2>Spatial Data Formats</h2>
+            <p>Spatial data is the foundation of any web map, containing information about the location and shape of geographic features, along with associated attributes.</p>
+            
+            <div class="formats-container">
+                <div class="format-card">
+                    <h3>GeoJSON</h3>
+                    <div class="format-icon">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <ul>
+                        <li>Lightweight JSON-based format</li>
+                        <li>Natively supported by web browsers</li>
+                        <li>Simple structure for points, lines, and polygons</li>
+                        <li>Easily parsed with JavaScript</li>
+                        <li>Ideal for web applications</li>
+                    </ul>
+                </div>
+                
+                <div class="format-card">
+                    <h3>Shapefile</h3>
+                    <div class="format-icon">
+                        <i class="fas fa-file-archive"></i>
+                    </div>
+                    <ul>
+                        <li>Traditional GIS format developed by Esri</li>
+                        <li>Consists of multiple files (.shp, .dbf, .shx, etc.)</li>
+                        <li>Supports complex geometries and attributes</li>
+                        <li>Requires conversion for web use</li>
+                        <li>Industry standard for desktop GIS</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="comparison-table">
+                <h3>Format Comparison</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>GeoJSON</th>
+                            <th>Shapefile</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web Compatibility</td>
+                            <td>Excellent</td>
+                            <td>Requires Conversion</td>
+                        </tr>
+                        <tr>
+                            <td>File Structure</td>
+                            <td>Single JSON File</td>
+                            <td>Multiple Files</td>
+                        </tr>
+                        <tr>
+                            <td>Size Efficiency</td>
+                            <td>Moderate</td>
+                            <td>Better for Large Datasets</td>
+                        </tr>
+                        <tr>
+                            <td>Attribute Handling</td>
+                            <td>Flexible</td>
+                            <td>Fixed Schema</td>
+                        </tr>
+                        <tr>
+                            <td>Industry Adoption</td>
+                            <td>Web/Mobile</td>
+                            <td>Traditional GIS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Web Mapping for Everyone. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

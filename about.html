@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Web Mapping</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-map-marked-alt"></i> Web Mapping for Everyone</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero about-hero">
+        <div class="container">
+            <h2>About Web Mapping</h2>
+            <p>The technology behind interactive maps</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="tech-roles">
+            <h2>Web Technologies in Mapping</h2>
+            <p>Modern web maps are built using a combination of core web technologies, each playing a crucial role in creating interactive mapping experiences:</p>
+            
+            <div class="tech-cards">
+                <div class="tech-card">
+                    <div class="tech-icon html-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p><strong>The Structure</strong></p>
+                    <ul>
+                        <li>Creates the container elements for the map</li>
+                        <li>Organizes map controls and information panels</li>
+                        <li>Provides semantic structure for accessibility</li>
+                        <li>Uses tags like <code>&lt;div&gt;</code> to define map boundaries</li>
+                    </ul>
+                    <p class="code-example">
+                        <code>&lt;div id="map"&gt;&lt;/div&gt;</code>
+                    </p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon css-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p><strong>The Style</strong></p>
+                    <ul>
+                        <li>Controls the map's appearance and layout</li>
+                        <li>Styles markers, popups, and controls</li>
+                        <li>Ensures maps are responsive on different devices</li>
+                        <li>Creates visual hierarchy for map elements</li>
+                    </ul>
+                    <p class="code-example">
+                        <code>#map { height: 400px; width: 100%; }</code>
+                    </p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon js-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p><strong>The Functionality</strong></p>
+                    <ul>
+                        <li>Creates interactive map behaviors</li>
+                        <li>Handles user interactions like clicking and zooming</li>
+                        <li>Loads and processes geospatial data</li>
+                        <li>Connects to mapping APIs and services</li>
+                    </ul>
+                    <p class="code-example">
+                        <code>let map = L.map('map').setView([51.505, -0.09], 13);</code>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="conclusion">
+            <h2>The Importance of Web Mapping</h2>
+            <div class="importance-content">
+                <div class="importance-text">
+                    <p>Web mapping has transformed how we interact with spatial information, making geographic data more accessible and useful for everyday tasks and complex analysis alike.</p>
+                    
+                    <h3>Applications of Web Mapping</h3>
+                    <ul class="applications-list">
+                        <li><i class="fas fa-route"></i> <strong>Navigation</strong>: Finding optimal routes and discovering places</li>
+                        <li><i class="fas fa-store"></i> <strong>Business</strong>: Location analytics and store finders</li>
+                        <li><i class="fas fa-chart-bar"></i> <strong>Data Visualization</strong>: Making sense of geographic patterns</li>
+                        <li><i class="fas fa-virus"></i> <strong>Public Health</strong>: Tracking disease spread and health resources</li>
+                        <li><i class="fas fa-home"></i> <strong>Real Estate</strong>: Property search and neighborhood analysis</li>
+                        <li><i class="fas fa-truck"></i> <strong>Logistics</strong>: Fleet management and delivery optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="importance-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Person using a map on mobile device">
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Explore the World of Web Maps</h2>
+            <p>The field of web mapping is constantly evolving, with new tools and techniques emerging regularly. Whether you're interested in creating your own maps, analyzing spatial data, or simply using maps more effectively, there's never been a better time to dive in.</p>
+            
+            <div class="resources">
+                <h3>Further Resources</h3>
+                <div class="resource-links">
+                    <a href="#" class="resource-link">
+                        <i class="fas fa-book"></i>
+                        <span>Web Mapping Tutorials</span>
+                    </a>
+                    <a href="#" class="resource-link">
+                        <i class="fas fa-map"></i>
+                        <span>Open Data Sources</span>
+                    </a>
+                    <a href="#" class="resource-link">
+                        <i class="fas fa-code"></i>
+                        <span>Mapping Libraries</span>
+                    </a>
+                    <a href="#" class="resource-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Online Courses</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="final-message">
+                <p>Maps help us understand our world in powerful ways. By exploring web mapping technology, you're opening the door to new perspectives on the places we live, work, and explore.</p>
+                <p class="highlight">Begin your journey into the fascinating world of web maps today!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Web Mapping for Everyone. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
